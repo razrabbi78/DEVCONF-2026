@@ -83,8 +83,65 @@ nav ul a{
     background-color: #2854ff;
 }
 
+/* Hero section */
 
+/* body{
+    background-color: orange;
+} */
 
+.hero{
+    margin-top: 100px;
+    height: 85vh;
+    background: url(./assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.55);
+}
+
+.hero-content{
+    position: relative;
+    color: white;
+    width: 800px;
+}
+
+.hero h1{
+    font-size: 78px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    width: 700px;
+    margin: auto;
+    font-size: 20px;
+    margin-bottom: 421px;
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #1d4ed8;
+    padding: 18px 45px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.hero-btn:hover{
+    background-color: #2854ff;
+}
 
 
