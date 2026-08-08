@@ -1,0 +1,1 @@
+I am designing a website called 'DEVCONF 2026' from scratch. Could you suggest any relevant sections I might include? For instance, something like a hackathon or a similar feature. Now give me a relevant section for dev conference website.
