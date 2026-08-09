@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: #ffffffFF;
 }
 
 .container {
@@ -22,11 +22,12 @@ body {
 /* Navbar */
 
 header {
-    background: whitesmoke;
+    background: #ffffffFF;
     width: 100%;
     top: 0;
     left: 0;
     position: fixed;
+    font-family: sans-serif;
 
 }
 
@@ -50,7 +51,7 @@ nav {
 }
 
 .logo h2 {
-    font-family: Arimo;
+    font-family: sans-serif;
     color: #0d1b2aFF;
     font-size: 20px;
     font-weight: 700;
@@ -124,7 +125,8 @@ nav ul a:hover {
 
 .hero h1 {
     font-size: 78px;
-    font-weight: 800;
+    font-weight: 700;
+    margin-top: 150px;
     margin-bottom: 20px;
 }
 
@@ -132,16 +134,19 @@ nav ul a:hover {
     width: 700px;
     margin: auto;
     font-size: 20px;
-    margin-bottom: 421px;
+    font-family: sans-serif;
+    margin-bottom: 350px;
 }
 
 .hero-btn {
     display: inline-block;
+    margin-bottom: 100px;
     text-decoration: none;
     color: white;
     background-color: #1d4ed8;
     padding: 18px 45px;
     border-radius: 10px;
+    font-family: sans-serif;
     font-size: 20px;
     font-weight: 600;
     transition: .3s;
@@ -155,9 +160,10 @@ nav ul a:hover {
 
 .speakers {
     /* padding: 100%; */
-    background: whitesmoke;
+    background: #ffffffFF;
     margin-top: 20px;
     margin-bottom: 136px;
+    font-family: sans-serif;
 }
 
 .speakers-title {
@@ -188,10 +194,10 @@ nav ul a:hover {
     transition: .35s;
 }
 
-/* .speaker-card:hover{
+.speaker-card:hover{
     transform: translateY(-8px);
     box-shadow: 0 15px 40px rgba(0,0,0,.12);
-} */
+}
 
 .speaker-card img {
     width: 100%;
@@ -229,7 +235,7 @@ nav ul a:hover {
     /* padding: 100px 0; */
     margin-top: 43px;
     margin-bottom: 50px;
-    background-color: whitesmoke;
+    background-color: #ffffffFF;
     font-family: sans-serif;
     /* border: 1px solid red; */
 }
@@ -270,6 +276,7 @@ nav ul a:hover {
 
 .price-card {
     background-color: white;
+    border: 1px solid #e5e7ebFF;
     border-radius: 12px;
     padding: 40px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
@@ -314,14 +321,28 @@ nav ul a:hover {
     line-height: 1.5;
     color: #888888FF;
     border-bottom: 1px solid rgba(0, 0, 0, .08);
+    margin-top: 8px;
 }
 
 .pro-span span {
     border-bottom: 1px solid rgba(119, 136, 153, 0.404);
+    margin-top: 8px;
 }
 
 .price-card ul {
     margin-bottom: 20px;
+}
+
+.standard-list {
+    color: #1e293b;
+}
+
+.pro-list {
+    color: #94a3b8;
+}
+
+.team-list {
+    color: #1e293b;
 }
 
 .price-card ul li::marker {
